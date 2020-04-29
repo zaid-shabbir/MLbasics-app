@@ -1,0 +1,190 @@
+body {
+  margin: 0 0 100px;
+  overflow: hidden;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar {
+  background-color: #051F20;
+  height: 70px;
+  color: white;
+}
+.navbar-brand{
+  color: white;
+  left: 0px;
+  right: 0px;
+}
+.row{
+  margin-right: 0;
+}
+.scroll{
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: calc(100vh - 110px);
+}
+.aside {
+   overflow-y: auto;
+   overflow-x: hidden;
+   height: calc(100vh - 110px);   
+   background-color:#051F20;
+ } 
+ .menu{
+  padding-right: 0;
+  max-width: 25%;
+ }
+ .footer {
+  color: white;
+  position: absolute;
+  padding-top: 10px;
+  height: 40px;
+  background-color: #051F20;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-weight: 10;
+  text-align: center;
+  margin-bottom: 0px;
+  overflow: hidden;
+ }
+ .subheading{
+  border: none;
+  outline: none;
+  background-color: #051F20;
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+  height: 60px;
+  padding: 20px 0;
+  padding-left: 20px;
+  overflow: hidden;
+ }
+.subheading:hover {
+  background-color: #808080 ;
+}
+
+@media only screen and (max-width: 800px) {
+  .subheading{
+    padding-left: 10px;
+    padding-bottom: 50px;
+    text-align: left;
+  }
+}
+.txt {
+  color: #b2b2b2;
+}
+a {
+  color: #8eaf81;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration:none; 
+  cursor:pointer;
+  color: #7CFC00;
+}
+.txt:hover {
+  text-decoration:none; 
+  cursor:pointer;
+  color : white;
+}
+
+button{
+  width: 100%;
+  height: 80px;
+  border: 2px solid;
+}
+.mybtn{
+  text-align: left;
+  padding-left: 20px;
+  color: #b2b2b2;
+  background-color: #4c4c4c;
+  border-top: none;
+}
+.btn:focus {
+  box-shadow: none !important;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.caraiml {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cinneraiml {
+  width: 100%;
+  max-height: calc(100vh - 110px);
+}
+.carai {
+  margin-left: 200px;
+  width: 800px;
+  padding-top: 10px;
+  left: 50%;
+  padding-right: 28px;
+}
+.cinnerai {
+  width: 100%;
+  max-height: 400px !important;
+}
+.carex {
+  margin-left: 200px;
+  width: 800px;
+  padding-top: 10px;
+  left: 50%;
+  padding-right: 28px;
+}
+.cinnerex {
+  width: 100%;
+  max-height: 550px !important;
+}
+.heading {
+  margin-top: 40px;
+}
+.content {
+  margin-top: 10px;
+}
+.gradebtn {
+  background-color: #051F20;
+  color: rgb(184, 201, 184);
+}
+.gradebtn:focus{
+  background:#051F20;
+}
+.gradebtn:hover {
+  background-color: #808080 ;
+}
+.gradeform{
+  margin-top: 50px;
+ }
+
+ .outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+video {
+  width: 100%;
+  height: calc(100vh - 310px);
+}
+.videoNN {
+  width: 100%;
+  height: calc(100vh - 400px);
+}
